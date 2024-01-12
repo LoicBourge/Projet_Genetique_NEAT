@@ -41,7 +41,7 @@ La classe `NeatNetwork` représente un réseau de neurones dans le contexte de N
 Méthodes importantes :
 
 - **crossover(parent1, parent2)**: Réalise un crossover entre deux parents et génère un enfant.
-- **mutateWeights(numberOfLinks)**: Mutate les poids des connexions.
+- **mutateWeights(numberOfLinks)**: Fais muter les poids des connexions.
 - **mutateInsertion(numberOfInsertions)**: Insère de nouveaux neurones dans le réseau.
 - **mutateConnection(numberOfConnections)**: Ajoute de nouvelles connexions au réseau.
 - **computeOutput()**: Calcule la sortie du réseau.
@@ -64,5 +64,5 @@ Méthodes importantes :
 - **mutateConnection()**: Ajoute de nouvelles connexions au réseau.
 - **computeOutput()**: Calcule la sortie du réseau.
 
-## Exécution du projet
-Le point d'entrée principal du projet est la classe `Main`. Elle configure l'algorithme NEAT, l'exécute et affiche les résultats.
+## Auteur
+Bourge Loïc
